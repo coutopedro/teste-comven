@@ -1,0 +1,27 @@
+{
+  "name": "desafio-pdf",
+  "version": "1.0.0",
+  "description": "Gera PDF a partir de um JSON (Relatório de Veículo).",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "validate": "node src/validate.js",
+    "web": "node src/server.js"
+  },
+  "keywords": [
+    "pdf",
+    "pdfkit",
+    "json",
+    "relatorio",
+    "veiculo"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.1.0",
+    "pdfkit": "^0.15.0",
+    "zod": "^3.23.8"
+  }
+}

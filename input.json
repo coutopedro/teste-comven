@@ -1,0 +1,27 @@
+{
+  "veiculo": {
+    "placa": "ABC-1234",
+    "marca": "Toyota",
+    "modelo": "Corolla",
+    "ano": 2022
+  },
+  "proprietario": {
+    "nome": "João da Silva",
+    "documento": "123.456.789-00",
+    "endereco": "Rua Exemplo, 123, Bairro Centro"
+  },
+  "historicoManutencao": [
+    {
+      "data": "2023-05-10",
+      "servico": "Troca de óleo e filtro",
+      "quilometragem": 20500,
+      "custo": 350.5
+    },
+    {
+      "data": "2024-01-15",
+      "servico": "Alinhamento e balanceamento",
+      "quilometragem": 35100,
+      "custo": 220.0
+    }
+  ]
+}

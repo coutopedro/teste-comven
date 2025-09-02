@@ -1,0 +1,4 @@
+node_modules
+relatorios/
+*.pdf
+.DS_Store
